@@ -2,3 +2,4 @@ discord.py==2.4.0
 requests==2.31.0
 selenium==4.17.2
 webdriver-manager==4.0.1
+audioop==1.0.0
