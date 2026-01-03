@@ -1,3 +1,6 @@
+import sys
+sys.modules['audioop'] = None
+
 import discord
 from discord.ext import commands
 from discord.ui import Button, View
@@ -119,3 +122,4 @@ async def check_info(ctx, phone: str = None):
             await status_msg.edit(content=f"❌ เกิดข้อผิดพลาดในการประมวลผลข้อมูล")
 
 bot.run(TOKEN)
+
